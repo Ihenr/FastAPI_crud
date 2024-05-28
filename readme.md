@@ -27,27 +27,27 @@ CREATE DATABASE fastapi_database;
 ### 4. Iniciar el proyecto 
 1. Verificar si tiene instalado virtualenv
    ```sh
-      virtualenv --version
+   virtualenv --version
    ```
 En caso de no tener instalar  virtualenv
    ```sh
-      pip install virtualenv
+   pip install virtualenv
       
    ```
 2. Activa el entorno virtual
    ```sh
-      python -m venv env
+   python -m venv env
    o
-      virtualenv venv
+   virtualenv venv
    ```
 3. Activa el entorno virtual  
    ```sh
-       --PowerShell
-       .\venv\Scripts\activate.ps1
+   --PowerShell
+   .\venv\Scripts\activate.ps1
    ```
 4. Instalar las dependencias 
    ```sh
-      pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 5. Ejecución.
    
@@ -55,19 +55,18 @@ En caso de no tener instalar  virtualenv
   - 1. uvicorn main:app 
   - 2. Agregar las líneas de Código.
      ```sh
-        import uvicorn
-           if __name__ == "__main__":
-            uvicorn.run("main:app", port=8000, reload=True)
-      
+     import uvicorn
+     if __name__ == "__main__":
+       uvicorn.run("main:app", port=8000, reload=True)
      ```
      y luego corremos
     ```sh
-     python .\main.py
+    python .\main.py
     ```
      
 6. Abrir en el navegador
   ```sh
-      http://127.0.0.1:8000/docs
+  http://127.0.0.1:8000/docs
    ```
     
 

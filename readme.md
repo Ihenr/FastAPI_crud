@@ -29,10 +29,9 @@ CREATE DATABASE fastapi_database;
    ```sh
    virtualenv --version
    ```
-En caso de no tener instalar  virtualenv
+   En caso de no tener instalar  virtualenv
    ```sh
-   pip install virtualenv
-      
+   pip install virtualenv  
    ```
 2. Activa el entorno virtual
    ```sh

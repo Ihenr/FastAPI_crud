@@ -32,8 +32,15 @@ CREATE DATABASE fastapi_database;
 En caso de no tener instalar  virtualenv
    ```sh
       pip install virtualenv
+      
    ```
-2. Activa el entorno virtual  
+2. Activa el entorno virtual
+   ```sh
+      python -m venv env
+   o
+      virtualenv venv
+   ```
+3. Activa el entorno virtual  
    ```sh
        --PowerShell
        .\venv\Scripts\activate.ps1

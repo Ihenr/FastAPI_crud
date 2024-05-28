@@ -44,15 +44,16 @@ En caso de no tener instalar  virtualenv
    ```
 5. Ejecución.
    
-## Dos formas de ejecutar FastAPI
-  1.- uvicorn main:app 
-  2.- Agregar las líneas de Código.
+** Dos formas de ejecutar FastAPI **
+  - uvicorn main:app 
+  - Agregar las líneas de Código.
      ```sh
         import uvicorn
            if __name__ == "__main__":
             uvicorn.run("main:app", port=8000, reload=True)
-      y luego corremos python .\main.py
+      
      ```
+     y luego corremos python .\main.py
      
 6. Abrir en el navegador
   ```sh

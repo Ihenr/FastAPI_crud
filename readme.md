@@ -29,7 +29,7 @@ CREATE DATABASE fastapi_database;
    ```sh
       virtualenv --version
    ```
-  en caso de no tener instalar  virtualenv
+        en caso de no tener instalar  virtualenv
    ```sh
       pip install virtualenv
    ```
@@ -42,9 +42,9 @@ CREATE DATABASE fastapi_database;
    ```sh
       pip install -r requirements.txt
    ```
-5. Ejecución.  
-# Dos formas de ejecutar FastAPI
-
+5. Ejecución.
+   
+## Dos formas de ejecutar FastAPI
   1. uvicorn main:app 
   2. Agregar las líneas de Código.
      ```sh
@@ -53,6 +53,7 @@ CREATE DATABASE fastapi_database;
             uvicorn.run("main:app", port=8000, reload=True)
      ```
      y luego corremos python .\main.py
+     
 6. Abrir en el navegador
   ```sh
       http://127.0.0.1:8000/docs
